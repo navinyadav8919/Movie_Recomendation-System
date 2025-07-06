@@ -15,11 +15,11 @@ def fetch_poster(movie_id):
     return 'https://image.tmdb.org/t/p/w500/' + data['poster_path']
 
 # ✅ Load movie data
-movies_dict = pickle.load(open('D:/Projects/iscale_projects/movie_recomendation_system/movie_dict.pkl', 'rb'))
+movies_dict = pickle.load(open('movie_dict.pkl', 'rb'))
 movies = pd.DataFrame(movies_dict)
 
 # ✅ Load similarity data
-similarity = pickle.load(open('D:/Projects/iscale_projects/movie_recomendation_system/similarity.pkl', 'rb'))
+similarity = pickle.load(open('similarity.pkl', 'rb'))
 
 # ✅ Recommend function
 def recommend(movie):
