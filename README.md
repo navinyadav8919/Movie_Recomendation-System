@@ -52,7 +52,7 @@ movie\_recommendation\_system/
 
 1. **Clone the repository**
 
-git clone https://github.com/yourusername/movie_recommendation_system.git
+git clone https://github.com/navinyadav8919/Movie_Recomendation-System.git
 cd movie_recommendation_system
 
 
